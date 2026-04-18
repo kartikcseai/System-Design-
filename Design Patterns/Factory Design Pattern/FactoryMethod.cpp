@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 // Product Class and subclasses
 class Burger {
 public:
