@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Command Interface
 class Command {
 public:
     virtual void execute() = 0;
