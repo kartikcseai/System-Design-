@@ -1,13 +1,10 @@
 #include <iostream>
-
 using namespace std;
-
 // Product 1 --> Burger
 class Burger {
 public:
     virtual void prepare() = 0;  // Pure virtual function
 };
-
 class BasicBurger : public Burger {
 public:
     void prepare() override {
